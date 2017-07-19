@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace LinkedList {
     class __main {
         static void Main(string[] args) {
-            Reverse_Linked_List temp = new Reverse_Linked_List();
+            var temp = new Remove_Duplicates_from_Sorted_List();
             temp.main();
         }
     }
