@@ -19,7 +19,9 @@ namespace LinkedList {
     }
 
     class Delete_Node_in_a_Linked_List {
-        node.val = node.next.val;
-        node.next = node.next.next; 
+        public void DeleteNode(ListNode node) {
+            node.val = node.next.val;
+            node.next = node.next.next;
+        }
     }
 }
