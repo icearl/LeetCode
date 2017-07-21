@@ -52,6 +52,7 @@
     <Compile Include="Remove_Nth_Node_From_End_of_List.cs" />
     <Compile Include="Reorder_List.cs" />
     <Compile Include="Reverse_Linked_List.cs" />
+    <Compile Include="Reverse_Linked_ListII.cs" />
     <Compile Include="__main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

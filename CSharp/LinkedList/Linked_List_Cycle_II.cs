@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 // 快慢指针
 // 关于这道题的解释和变形参考http://blog.sina.com.cn/s/blog_6f611c300101fs1l.html
 // 本解利用的是方法 3
+
 namespace LinkedList {
     class Linked_List_Cycle_II {
         public ListNode DetectCycle(ListNode head) {
