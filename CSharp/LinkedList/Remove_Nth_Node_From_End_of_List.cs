@@ -37,7 +37,7 @@ namespace LinkedList {
             first.next = first.next.next;
             return nil.next;
         }
-        // 前后双指针 
+        // 方二：前后双指针 
         // 两指针隔 n + 1 个，第二个指针为 null 的时候，第一个就是倒数第 n + 1 个，把倒数第 n + 1 的 next 后移两个即可
         public ListNode RemoveNthFromEnd2(ListNode head, int n) {
             ListNode dummy = new ListNode(0);
