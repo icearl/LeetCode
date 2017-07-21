@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /* 206. Reverse a singly linked list.
 */
 
-// 单链表倒序（前插法）
+// 单链表整表倒序（前插法）
 namespace LinkedList {
     class Reverse_Linked_List {
         // 迭代版本

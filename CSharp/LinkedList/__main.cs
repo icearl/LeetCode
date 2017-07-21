@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace LinkedList {
     class __main {
         static void Main(string[] args) {
-            var temp = new Reverse_Linked_ListII();
+            var temp = new Partition_List();
             temp.main();
         }
     }
