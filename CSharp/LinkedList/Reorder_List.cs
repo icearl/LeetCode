@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//143 重排链表：链表倒序 快慢指针 合并链表
-//Reorder List
+//143 重排链表 Reorder List：链表倒序 快慢指针 合并链表 
 namespace LinkedList {
     class Reorder_List {
         //链表长度分两半 + 前插法倒序 + 合并
