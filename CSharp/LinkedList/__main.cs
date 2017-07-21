@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace LinkedList {
     class __main {
         static void Main(string[] args) {
-            var temp = new Remove_Duplicates_from_Sorted_List();
+            var temp = new Reorder_List();
             temp.main();
         }
     }

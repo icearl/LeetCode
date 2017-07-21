@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 // 除了尾结点以外的删除方法，非常简单。用后面的节点覆盖这个值，然后跳过后面的那个节点就好了。
 namespace LinkedList {
     //Definition for singly-linked list.
-    public class ListNode {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
+    //public class ListNode {
+    //    public int val;
+    //    public ListNode next;
+    //    public ListNode(int x) { val = x; }
+    //}
 
     class Delete_Node_in_a_Linked_List {
         public void DeleteNode(ListNode node) {

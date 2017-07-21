@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Two_Numbers.cs" />
     <Compile Include="Delete_Node_in_a_Linked_List.cs" />
+    <Compile Include="Linked_List_Cycle.cs" />
+    <Compile Include="List_Node_Define.cs" />
+    <Compile Include="Merge_Two_Sorted_Lists.cs" />
     <Compile Include="Remove_Duplicates_from_Sorted_List.cs" />
+    <Compile Include="Reorder_List.cs" />
     <Compile Include="Reverse_Linked_List.cs" />
     <Compile Include="__main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

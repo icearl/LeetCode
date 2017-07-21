@@ -27,11 +27,11 @@ namespace LinkedList {
         }
 
         //Definition for singly-linked list.
-        public class ListNode {
-            public int val;
-            public ListNode next;
-            public ListNode(int x) { val = x; }
-        }
+        //public class ListNode {
+        //    public int val;
+        //    public ListNode next;
+        //    public ListNode(int x) { val = x; }
+        //}
 
         public void main() {
             ListNode node1 = new ListNode(1);
@@ -49,12 +49,12 @@ namespace LinkedList {
                 p = p.next;
             }
         }
-        // main 函数调用
-        class __main {
-            static void Main(string[] args) {
-                var temp = new Remove_Duplicates_from_Sorted_List();
-                temp.main();
-            }
-        }
+        //// main 函数调用
+        //class __main {
+        //    static void main(string[] args) {
+        //        var temp = new Remove_Duplicates_from_Sorted_List();
+        //        temp.main();
+        //    }
+        //}
     }
 }

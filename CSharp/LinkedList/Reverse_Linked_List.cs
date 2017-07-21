@@ -22,16 +22,16 @@ namespace LinkedList {
             }
             //初始化
             ListNode prev = null;
-            ListNode curr = head;
+            ListNode newHead = head;
 
-            while (curr != null) {
+            while (newHead != null) {
                 // 存好下一个节点
-                ListNode nextTemp = curr.next;
+                ListNode nextTemp = newHead.next;
                 // 核心：把当前节点的 next 指向前一节点
-                curr.next = prev;
+                newHead.next = prev;
                 // 调整指针，为下次迭代准备
-                prev = curr;
-                curr = nextTemp;
+                prev = newHead;
+                newHead = nextTemp;
             }
             // 如果当前的是 null，说明到头了，返回 null 的前一个，即 prev
             return prev;
@@ -53,11 +53,11 @@ namespace LinkedList {
             return p;
         }
 
-        public class ListNode {
-            public int val;
-            public ListNode next;
-            public ListNode(int x) { val = x; }
-        }
+        //public class ListNode {
+        //    public int val;
+        //    public ListNode next;
+        //    public ListNode(int x) { val = x; }
+        //}
 
         // 测试
         public void main() {
