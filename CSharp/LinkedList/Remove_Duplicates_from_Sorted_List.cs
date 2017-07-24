@@ -20,7 +20,7 @@ namespace LinkedList {
                 if (current.next.val == current.val) {
                     current.next = current.next.next;
                 } else {
-                    current = current.next;
+                    current = current.next; 
                 }
             }
             return head;

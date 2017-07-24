@@ -28,8 +28,8 @@ namespace LinkedList {
                     p2.next = p;
                     p2 = p2.next;
                 }
-                Console.WriteLine("p1: " + p1.val);
-                Console.WriteLine("        p2: " + p2.val);
+                //Console.WriteLine("p1: " + p1.val);
+                //Console.WriteLine("        p2: " + p2.val);
                 p = p.next;
                 
             }

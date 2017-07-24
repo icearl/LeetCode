@@ -49,6 +49,7 @@
     <Compile Include="List_Node_Define.cs" />
     <Compile Include="Merge_Two_Sorted_Lists.cs" />
     <Compile Include="Partition_List.cs" />
+    <Compile Include="Remove_Duplicates_from_Sorted_ArrayII.cs" />
     <Compile Include="Remove_Duplicates_from_Sorted_List.cs" />
     <Compile Include="Remove_Nth_Node_From_End_of_List.cs" />
     <Compile Include="Reorder_List.cs" />

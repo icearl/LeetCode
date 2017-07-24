@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace LinkedList {
     class __main {
         static void Main(string[] args) {
-            var temp = new Partition_List();
+            //Console.WriteLine("1");
+            var temp = new Remove_Duplicates_from_Sorted_ArrayII();
             temp.main();
         }
     }
