@@ -9,7 +9,7 @@ namespace LinkedList {
     class __main {
         static void Main(string[] args) {
             //Console.WriteLine("1");
-            var temp = new Swap_Nodes_in_Pairs();
+            var temp = new Remove_Linked_List_Elements();
             temp.main();
         }
     }

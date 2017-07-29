@@ -51,6 +51,7 @@
     <Compile Include="Partition_List.cs" />
     <Compile Include="Remove_Duplicates_from_Sorted_ArrayII.cs" />
     <Compile Include="Remove_Duplicates_from_Sorted_List.cs" />
+    <Compile Include="Remove_Linked_List_Elements.cs" />
     <Compile Include="Remove_Nth_Node_From_End_of_List.cs" />
     <Compile Include="Reorder_List.cs" />
     <Compile Include="Reverse_Linked_List.cs" />
