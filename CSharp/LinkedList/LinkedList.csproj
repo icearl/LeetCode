@@ -57,6 +57,7 @@
     <Compile Include="Reverse_Linked_ListII.cs" />
     <Compile Include="Reverse_Nodes_in_k_Group.cs" />
     <Compile Include="Rotate_List.cs" />
+    <Compile Include="Swap_Nodes_in_Pairs.cs" />
     <Compile Include="__main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

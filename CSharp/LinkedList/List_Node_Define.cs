@@ -30,7 +30,7 @@ namespace LinkedList {
             node4.next = node5;
             node5.next = node6;
             node6.next = node7;
-            ListNode p = node1;
+            ListNode p = (node1);
             while (p != null) {
                 Console.WriteLine(p.val);
                 p = p.next;
